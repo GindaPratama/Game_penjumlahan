@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: box-sizing;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('assets/background.jpg') no-repeat center center/cover;
+    background-size: cover;
+    backdrop-filter: blur(20px) opacity(0.8) brightness(0.4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .game-container {
+    background: linear-gradient(45deg, #000000, #1a1a1a);
+    box-shadow: 0 0 5px blue, 0 0 20px cyan;
+    color: #fff;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .question-box {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  input[type="number"] {
+    width: 19em;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 15px 0;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    outline: none;
+    transition: border 0.3s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  input[type="number"]:focus {
+    border-color: #3498db;
+  }
+  
+  button {
+    background: #2919b6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  #feedback {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  
+  .scoreboard {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
