@@ -1,10 +1,10 @@
-* {
-  margin: 0px;
+  s* {
+    margin: 0px;
   padding: 0px;
-  border: box-sizing;
-}
+  border: box-sizing; 
+  }
 
-body {
+  body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -32,7 +32,7 @@ body {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-}
+  }
   
   h1 {
     font-size: 1.8rem;
@@ -51,7 +51,7 @@ body {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-}
+  }
   
   input[type="number"] {
     width: 19em;
@@ -66,7 +66,7 @@ body {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-}
+  }
   
   input[type="number"]:focus {
     border-color: #3498db;
@@ -96,4 +96,42 @@ body {
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: bold;
+  }
+
+  @media screen and (max-width: 476px) {
+    .game-container {
+      width: 33vh;
+    }
+
+    input[type="number"] {
+      width: 30vh;
+    }
+    
+  }
+
+  @media screen and (max-width: 376px) {
+    .game-container {
+      width: 50vh;
+      height: 70vh;
+      display: inline-table;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    input[type="number"] {
+      width: 200px;
+      font-size: 15px
+    }
+
+    .question-box {
+      font-size: 15px;
+      margin-bottom: auto;
+    }
+
+    button {
+      font-size: 15px;
+      margin-top: 20px;
+    }
   }
